@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://www.ipvc.pt">
-    <img src="assets/logo_ipvc_svg2-sunrise.svg" alt="IPVC Logo" width="200">
+    <img src="assets/logo_ipvc_svg2-sunrise.svg" alt="IPVC Logo" width="600">
   </a>
 
   <h3 align="center">Mobile Computing - Practical Exercise #1</h3>
