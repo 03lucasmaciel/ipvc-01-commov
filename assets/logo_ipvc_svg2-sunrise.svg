@@ -4,11 +4,11 @@
   <defs>
     <style>
       .st0 {
-        fill: #0b0b09;
+        fill: #ffff;
       }
 
       .st0, .st1, .st2 {
-        fill-rule: evenodd;
+        fill-rule: #ffff;
       }
 
       .st1 {
