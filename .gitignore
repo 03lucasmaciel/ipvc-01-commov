@@ -1,0 +1,36 @@
+# Arquivos compilados e classes
+*.iml
+*.class
+*.apk
+*.ap_
+*.dex
+
+# Gradle
+.gradle
+**/build/
+gradle-app.setting
+
+# Configurações locais (não compartilhar)
+local.properties
+
+# IDE - IntelliJ IDEA / Android Studio
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/*.iml
+
+# macOS
+.DS_Store
+
+# Build intermediários
+/captures
+.externalNativeBuild
+.cxx
+
+# Kotlin
+.kotlin/
