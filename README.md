@@ -1,13 +1,6 @@
 <a id="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -503,14 +496,6 @@ ipvc-01-commov/
 <!-- CONTACT -->
 
 <!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- [Jetpack Compose Documentation](https://developer.android.com/jetpack/compose)
-- [Kotlin Documentation](https://kotlinlang.org/docs/home.html)
-- [Material Design 3](https://m3.material.io/)
-- [Android Developers](https://developer.android.com/)
-- [Best README Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
