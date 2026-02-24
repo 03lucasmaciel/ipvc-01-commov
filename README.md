@@ -4,6 +4,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+  <a href="https://www.ipvc.pt">
+    <img src="https://www.ipvc.pt/wp-content/uploads/2026/01/logo_ipvc_svg2-sunrise.svg" alt="IPVC Logo" width="200">
+  </a>
+
   <h3 align="center">Mobile Computing - Practical Exercise #1</h3>
 
   <p align="center">
