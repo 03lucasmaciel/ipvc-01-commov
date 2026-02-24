@@ -42,6 +42,7 @@ fun PrimeiraApp() {
     var nome by remember { mutableStateOf("") }
     var resultado by remember { mutableStateOf("") }
     var cliques by remember { mutableStateOf(0) }
+    var tentouSubmeter by remember { mutableStateOf(false) }
     val nomeValido = nome.isNotBlank()
 
     Column(
@@ -60,10 +61,11 @@ fun PrimeiraApp() {
         OutlinedTextField(
             value = nome,
             onValueChange = { nome = it },
-            label = { Text("Insira o seu nome") }
+            label = { Text("Insira o seu nome") },
+            isError = tentouSubmeter && !nomeValido
         )
 
-        if (!nomeValido) {
+        if (tentouSubmeter && !nomeValido) {
             Spacer(modifier = Modifier.height(8.dp))
             Text(
                 text = "O nome não pode estar vazio!",
@@ -75,10 +77,12 @@ fun PrimeiraApp() {
 
         Button(
             onClick = {
-                cliques++
-                resultado = "Olá, $nome!"
-            },
-            enabled = nomeValido
+                tentouSubmeter = true
+                if (nomeValido) {
+                    cliques++
+                    resultado = "Olá, $nome!"
+                }
+            }
         ) {
             Text("Dizer Olá")
         }
